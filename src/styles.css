@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-content {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 48px;
+  padding-bottom: 3%;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 24px;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2; /* Change to a higher value than the video */
+}
+
+.hireme {
+  padding-top: 2%;
+}
+
+.about-content {
+  text-align: center;
+  height: 100vh;
+}
+
+.about-content p {
+  color: #666362;
+}
+
+.about-content h2 {
+  padding: 2%;
+}
+
+.abilities {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.abilities h2 {
+  padding: 2%;
+}
