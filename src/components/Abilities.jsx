@@ -1,18 +1,18 @@
 import React from 'react';
 
 export default function Abilities() {
-  const skillsA = ['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4']; // Replace with your actual skills
-  const skillsB = ['Skill 5', 'Skill 6', 'Skill 7', 'Skill 8']; // Replace with your actual skills
+  const skillsA = ['Front-End Web Development', 'HTML 5', 'CSS 3', 'Flexbox', 'Grid', 'Bootstrap 5', 'Javascript ES6', 'DOM Manipulation', 'jQuery', 'Bash Command Line', 'Git, GitHub and Version Control', 'Backend Web Development', 'Node.js', 'NPM', 'Express.js']; // Replace with your actual skills
+  const skillsB = [ 'EJS', 'REST', 'APIs', 'Databases', 'SQL', 'MongoDB', 'Mongoose', 'Authentication', 'Firebase', 'React.js', 'React Hooks', 'Web Design', 'Deployment with GitHub Pages, Heroku and MongoDB Atlas']; // Replace with your actual skills
     
   return (
-      <div>
+      <div className="abilities">
       
-        <div className="abilities">
+        <div>
          <h2>ABILITIES</h2>
          <p>Here are my most important abilities as a Creative Engineer</p>
         </div>
 
-        //Skills list on the left
+        {/* Skills list on the left */}
         <div className="SkillA" style={{ display: 'inline-block', width: '50%', marginRight: '10px' }}>
           
          {skillsA.map((skillA, index) => (
@@ -21,7 +21,7 @@ export default function Abilities() {
 
         </div>
 
-        //Skills list on the right
+        {/* Skills list on the right */}
         <div className="SkillB" style={{ display: 'inline-block', width: '50%' }}>
         
          {skillsB.map((skillB, index) => (

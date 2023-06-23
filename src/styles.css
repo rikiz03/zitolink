@@ -55,17 +55,9 @@
   padding-top: 2%;
 }
 
-.about-content {
-  text-align: center;
+.about-column {
   height: 100vh;
-}
-
-.about-content p {
-  color: #666362;
-}
-
-.about-content h2 {
-  padding: 2%;
+  
 }
 
 .abilities {
