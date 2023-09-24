@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="hero-section">
       {/* My introduction */}
       <div className="hero-content">
-        <h1>I am Kizito Okeke</h1>
+        <h1>Hi!</h1>
         <p>Welcome to my interactive resume</p>
         <HireMe />
       </div>

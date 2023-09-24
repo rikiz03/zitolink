@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 const pages = ['About Me', 'Portfolio', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Linkedin', 'Twitter', 'Whatsapp', 'Gmail'];
 
 function Bar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -49,13 +49,15 @@ function Bar() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontWeight: 1200,
+              letterSpacing: '.2.8rem',
               color: 'inherit',
               textDecoration: 'none',
+              fontSize: '20px',
             }}
+
           >
-            LOGO
+            ZITOLINK
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -111,7 +113,7 @@ function Bar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            ZITOLINK
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -126,9 +128,9 @@ function Bar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="Socials">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar className="p-1" alt="Social-media-1" src="https://i.postimg.cc/68dW7dH8/social-media-1.png" border='0' />
               </IconButton>
             </Tooltip>
             <Menu

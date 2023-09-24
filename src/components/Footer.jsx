@@ -1,12 +1,30 @@
-import React from "react";
+'use client';
 
-function Footer() {
+import { Footer } from 'flowbite-react';
+
+export default function DefaultFooter() {
   const year = new Date().getFullYear();
   return (
-    <footer>
-      <p>Kizito Okeke ⓒ {year} | all rights reserved</p>
-    </footer>
-  );
+    <Footer container>
+      <Footer.Copyright
+        by="Zitolink | All Rights Reserved"
+        href="#"
+        year={year}
+      />
+      <Footer.LinkGroup>
+        <Footer.Link href="#">
+          About
+        </Footer.Link>
+        <Footer.Link href="#">
+          Privacy Policy
+        </Footer.Link>
+        <Footer.Link href="#">
+          Licensing
+        </Footer.Link>
+        <Footer.Link href="#">
+          Contact
+        </Footer.Link>
+      </Footer.LinkGroup>
+    </Footer>
+  )
 }
-
-export default Footer;

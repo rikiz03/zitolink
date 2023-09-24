@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
 }
 
 .hero-section {
@@ -21,8 +22,8 @@
 
 .hero-content h1 {
   color: white;
-  font-size: 48px;
-  padding-bottom: 3%;
+  font-size: 42px;
+  padding-bottom: 2%;
 }
 
 .hero-content p {
@@ -48,26 +49,53 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 2; /* Change to a higher value than the video */
+  z-index: 2;
 }
 
 .hireme {
   padding-top: 2%;
 }
 
-.about-column {
+
+/* css for projects section starts*/
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 3% 8% 7%;
+  box-sizing: border-box;
   height: 100vh;
-  
 }
 
-.abilities {
-  position: relative;
-  text-align: center;
-  height: 100vh;
+.box {
+  flex: 1;
   overflow: hidden;
-  
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
 }
 
-.abilities h2 {
-  padding: 2%;
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
 }
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* css for projects section ends*/
+ 

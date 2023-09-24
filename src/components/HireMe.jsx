@@ -7,7 +7,7 @@ export default function HireMe() {
     <Box sx={{ '& button': { m: 1 } }} className="hireme">
 
       <div>
-        <Button variant="outlined" size="small">
+        <Button href="mailto:zitolink19@gmail.com" variant="outlined" size="small">
           Hire Me
         </Button>
       </div>

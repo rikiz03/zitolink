@@ -1,40 +1,452 @@
+'use client';
+
+import { Rating } from 'flowbite-react';
 import React from 'react';
 
 export default function Abilities() {
-  const skillsA = ['Front-End Web Development', 'HTML 5', 'CSS 3', 'Flexbox', 'Grid', 'Bootstrap 5', 'Javascript ES6', 'DOM Manipulation', 'jQuery', 'Bash Command Line', 'Git, GitHub and Version Control', 'Backend Web Development', 'Node.js', 'NPM', 'Express.js']; // Replace with your actual skills
-  const skillsB = [ 'EJS', 'REST', 'APIs', 'Databases', 'SQL', 'MongoDB', 'Mongoose', 'Authentication', 'Firebase', 'React.js', 'React Hooks', 'Web Design', 'Deployment with GitHub Pages, Heroku and MongoDB Atlas']; // Replace with your actual skills
-    
-  return (
-      <div className="abilities">
+  
+  return(
+    <div className="h-screen mb-20">
+
+      <div className="text-center">
+        <h2 className="font-black mb-4">ABILITIES</h2>
+        <p className="mb-16 text-gray-600 ">Here are my most important abilities as a Creative Engineer</p>
+      </div>
       
-        <div>
-         <h2>ABILITIES</h2>
-         <p>Here are my most important abilities as a Creative Engineer</p>
+      <div className="columns-2 gap-14 ml-14 mr-14">
+        <div className="leading-loose w-full aspect-square">
+          <h3 className="font-bold text-xl mb-2">Coding</h3>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">HTML 5</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">CSS</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Bootstrap 5</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Tailwind v3.3.3</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">JavaScript ES6</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">ReactJS</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">jQuery</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">EJS</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">NodeJS / ExpressJS</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">MySQL</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">MongoDB</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Mongoose</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">GIT / Version Control</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">JSON / XML</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">GitHub</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">CLI</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Python / Django / FastAPI</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">C# / ASP.NET Core</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Authentication / Firebase</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
         </div>
 
-        {/* Skills list on the left */}
-        <div className="SkillA" style={{ display: 'inline-block', width: '50%', marginRight: '10px' }}>
-          
-         {skillsA.map((skillA, index) => (
-         <div key={index}>{skillA}</div>
-         ))}
+        <div className="leading-loose w-full aspect-square">
+          <div>
+            <h3 className="font-bold text-xl mb-2">Languages</h3>
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">English (fluent / daily use)</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+            
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Spanish (basic proficiency)</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
 
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Igbo (mother tongue)</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+          </div>
+
+          <div>
+            <h3 className="font-bold text-xl mb-2 mt-7">Tools / Others</h3>
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Figma (UX / UI)</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">SEO</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Atom</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">VSCode</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+      
+            <dl className="group flex block justify-between">
+                <dt className="group-hover:font-semibold">Visual Studio</dt>
+                <dd className="flex-shrink-0">
+                  <Rating>
+                    <Rating.Star />
+                    <Rating.Star />
+                    <Rating.Star />
+                    <Rating.Star />
+                    <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  </Rating>
+                </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Postman</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Studio3T</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Scrum / Agile</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Spline</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Blender</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+          </div>
         </div>
-
-        {/* Skills list on the right */}
-        <div className="SkillB" style={{ display: 'inline-block', width: '50%' }}>
-        
-         {skillsB.map((skillB, index) => (
-         <div key={index}>{skillB}</div>
-         ))}
-
-        </div> 
 
       </div>
-    );
+
+    </div> 
+  )
 }
-
-
-
-
 
