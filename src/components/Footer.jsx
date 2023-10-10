@@ -1,30 +1,31 @@
-'use client';
+"use client";
 
-import { Footer } from 'flowbite-react';
+import { Footer } from "flowbite-react";
 
 export default function DefaultFooter() {
   const year = new Date().getFullYear();
   return (
-    <Footer container>
+    <Footer container className="flex flex-col items-center py-6">
       <Footer.Copyright
-        by="Zitolink | All Rights Reserved"
+        className="md:mb-4"
+        by="Zitolink    |    All Rights Reserved"
         href="#"
         year={year}
       />
-      <Footer.LinkGroup>
-        <Footer.Link href="#">
+      <Footer.LinkGroup className="mt-6">
+        <Footer.Link className="px-4" href="#">
           About
         </Footer.Link>
-        <Footer.Link href="#">
-          Privacy Policy
-        </Footer.Link>
-        <Footer.Link href="#">
+        <Footer.Link className="px-4" href="#">
           Licensing
         </Footer.Link>
-        <Footer.Link href="#">
+        <Footer.Link className="px-4" href="#">
+          Support
+        </Footer.Link>
+        <Footer.Link className="px-4" href="#">
           Contact
         </Footer.Link>
       </Footer.LinkGroup>
     </Footer>
-  )
+  );
 }
