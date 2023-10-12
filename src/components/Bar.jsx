@@ -1,6 +1,4 @@
 import React from "react";
-import { Link, Element } from 'react-scroll';
-import About from "./About";
 
 export default function Bar() {
   return (
@@ -17,23 +15,20 @@ export default function Bar() {
             </span>
             <div
               className="justify-between hidden w-full md:flex md:w-auto md:order-1 ml-4"
-              id="navbar-user"
             >
               <ul className="flex flex-col font-bold p-4 md:p-0 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 text-sm">
                 <li>
                   <a
-                    to="about-section"
-                    href="#"
+                    href="#about"
                     className="block py-2 pl-3 pr-4 text-white bg-white rounded md:bg-transparent md:text-white md:p-0"
                     aria-current="page"
-                    onClick={() => scrollTo("about-section")}
                   >
                     ABOUT ME
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#projects"
                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0"
                   >
                     PORTFOLIO
@@ -41,7 +36,7 @@ export default function Bar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#footer"
                     className="block py-2 pl-3 pr-4 text-white rounded md:p-0"
                   >
                     CONTACT

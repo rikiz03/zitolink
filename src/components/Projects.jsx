@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="my-10">
+    <div className="my-10" id="projects">
       <h2 className="text-center font-black mb-8">PROJECTS</h2>
       <div className="container">
         <div className="box">

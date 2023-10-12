@@ -1,10 +1,8 @@
 import React from "react";
-import Bar from "./Bar"
-import { Link, Element } from 'react-scroll';
 
 export default function About() {
   return (
-    <Element className="about-section my-20">
+    <div className="my-20" id="about">
       <h2 className="font-black mb-8 text-center">ABOUT</h2>
       <div className="flex flex-col items-center">
         <a
@@ -29,16 +27,17 @@ export default function About() {
               applications. My technical know-how aside, I excel at effective
               communication and time management, and i adapt quickly to new
               conditions and environment. I am also passionate about{" "}
-              <box className="font-bold"> UX/UI </box> and 3D
-              Modeling/Animation. When I'm not busy coding, I like to relax my
-              mind by watching movies or stay active by hitting the gym. These
-              activities help me to stay sharp, motivated, and in touch with my
-              creative side. Lets work together to bring your project to life!
+              <box className="font-bold"> UX/UI </box> and 3D Modeling/Animation
+              which i use in adding some special effects to Software. When I'm
+              not busy coding, I like to relax my mind by watching movies or
+              stay active by hitting the gym. These activities help me to stay
+              sharp, motivated, and in touch with my creative side. Lets work
+              together to bring your project to life!
             </p>
           </div>
         </a>
       </div>
-    </Element>
+    </div>
   );
 }
 
