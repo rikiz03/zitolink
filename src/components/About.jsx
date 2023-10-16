@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="my-20" id="about">
-      <h2 className="font-black mb-8 text-center">ABOUT</h2>
+      <h2 className="font-black mb-8 text-center">ABOUT ME</h2>
       <div className="flex flex-col items-center">
         <a
           href="#"

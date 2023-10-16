@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 export default function Bar() {
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  }
+
   return (
     <div className="relative">
       <nav className="bg-transparent absolute top-0 left-0 right-0 z-10">
@@ -13,34 +20,44 @@ export default function Bar() {
                 alt="Zitolink logo"
               />
             </span>
-            <div
-              className="justify-between hidden w-full md:flex md:w-auto md:order-1 ml-4"
-            >
+            <div className="justify-between hidden w-full md:flex md:w-auto md:order-1 ml-4">
               <ul className="flex flex-col font-bold p-4 md:p-0 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 text-sm">
                 <li>
-                  <a
-                    href="#about"
+                  <Link
                     className="block py-2 pl-3 pr-4 text-white bg-white rounded md:bg-transparent md:text-white md:p-0"
                     aria-current="page"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}
                   >
                     ABOUT ME
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#projects"
+                  <Link
                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                   >
                     PORTFOLIO
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#footer"
+                  <Link
                     className="block py-2 pl-3 pr-4 text-white rounded md:p-0"
+                    to="footer"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                   >
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -49,11 +66,10 @@ export default function Bar() {
           <div className="flex items-center md:order-2">
             <button
               type="button"
-              className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+              className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300"
               id="user-menu-button"
               aria-expanded="false"
-              data-dropdown-toggle="user-dropdown"
-              data-dropdown-placement="bottom"
+              onClick={toggleDropdown}
             >
               <span className="sr-only">Open user menu</span>
               <img
@@ -64,7 +80,7 @@ export default function Bar() {
             </button>
             {/* Dropdown menu */}
             <div
-              className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+              className={`z-50 ${dropdownVisible ? "block" : "hidden"} my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow`}
               id="user-dropdown"
             >
               <div className="px-4 py-3">
