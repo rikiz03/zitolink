@@ -58,15 +58,32 @@ export default function Experience() {
           <li className="ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              September, 2023
+              October, 2023
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Techfleet
+            <h3 className="text-lg font-semibold text-gray-900">
+              Web Developer at Quantum innovative technologies
             </h3>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Tech fleet is a nonprofit from which i am gaining real world
-              experience
+            <p className="text-base font-normal text-gray-500">
+              At QIT i work with a team of engineers and designers to deliver high-quality web solutions that align with business objectives and develop cutting edge technologies.
             </p>
+            <a href="https://qit.com.ng" className="text-base font-normal text-blue-500">
+              https://qit.com.ng
+            </a>
+          </li>
+          <li className="ml-4 mt-10">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              October, 2023
+            </time>
+            <h3 className="text-lg font-semibold text-gray-900">
+              Backend Developer at Canrise Technologies
+            </h3>
+            <p className="text-base font-normal text-gray-500">
+              At canRise i collaborate with cross-functional teams to understand business requirements, design, develop and test APIs that connect our frontend applications to backend services, enabling smooth data exchange and integration.
+            </p>
+            <a href="https://canrise.ca" className="text-base font-normal text-blue-500">
+              https://canrise.ca
+            </a>
           </li>
         </ol>
       </div>

@@ -2,27 +2,27 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="my-10" id="projects">
+    <div className="mb-10 mt-20" id="projects">
       <h2 className="text-center font-black mb-8">PROJECTS</h2>
       <div className="container">
         <div className="box">
           <img src="https://source.unsplash.com/1000x800" />
-          <span>CSS</span>
+          <span className="text-lg font-semibold text-gray-900 mb-2">CSS</span>
         </div>
 
         <div className="box">
           <img src="https://source.unsplash.com/1000x802" />
-          <span>Image</span>
+          <span className="">Image</span>
         </div>
 
         <div className="box">
           <img src="https://source.unsplash.com/1000x804" />
-          <span>Hover</span>
+          <span className="">Hover</span>
         </div>
 
         <div className="box">
           <img src="https://source.unsplash.com/1000x806" />
-          <span>Effect</span>
+          <span className="">Effect</span>
         </div>
       </div>
     </div>

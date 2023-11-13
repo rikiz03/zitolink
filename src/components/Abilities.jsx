@@ -1,19 +1,17 @@
-"use client";
-
 import { Rating } from "flowbite-react";
 import React from "react";
 
 export default function Abilities() {
   return (
-    <div className="my-20">
+    <div className="my-20 pb-20 mb:pb-0">
       <div className="text-center">
         <h2 className="font-black mb-4">ABILITIES</h2>
-        <p className="mb-16 text-gray-600 ">
+        <p className="mb-16 text-gray-600">
           Here are my most important abilities as a Creative Engineer
         </p>
       </div>
 
-      <div className="columns-2 gap-14 ml-14 mr-14">
+      <div className="mx-8 md:flex md:justify-between md:gap-14 md:ml-14 md:mr-14">
         <div className="leading-loose w-full aspect-square">
           <h3 className="font-bold text-xl mb-2">Coding</h3>
 
@@ -252,26 +250,11 @@ export default function Abilities() {
               </Rating>
             </dd>
           </dl>
-
-          <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">
-              Authentication / Firebase
-            </dt>
-            <dd className="flex-shrink-0">
-              <Rating>
-                <Rating.Star />
-                <Rating.Star />
-                <Rating.Star />
-                <Rating.Star />
-                <Rating.Star className="text-gray-300 dark:text-gray-500" />
-              </Rating>
-            </dd>
-          </dl>
         </div>
 
         <div className="leading-loose w-full aspect-square">
           <div>
-            <h3 className="font-bold text-xl mb-2">Languages</h3>
+            <h3 className="font-bold text-xl mb-2 md:mt-0 mt-7">Languages</h3>
             <dl className="group flex block justify-between">
               <dt className="group-hover:font-semibold">
                 English (fluent / daily use)
@@ -342,6 +325,21 @@ export default function Abilities() {
                   <Rating.Star />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">
+                Authentication / Web Application Security / Firebase
+              </dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
                 </Rating>
               </dd>
             </dl>

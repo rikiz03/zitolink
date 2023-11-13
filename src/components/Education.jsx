@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Education() {
   return (
-    <div className="container grid grid-cols-1 place-content-center my-20">
-      <h2 className="font-black mb-8 md:mb-14 text-center">EDUCATION</h2>
+    <div className="container grid grid-cols-1 md:my-0 my-20 py-20 md:py-0">
+      <h2 className="font-black text-center pt-20">EDUCATION</h2>
 
       <div className="">
         <ol className="items-center sm:flex">
@@ -90,7 +90,7 @@ export default function Education() {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 CIC Enugu
               </h3>
               <h4 className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
