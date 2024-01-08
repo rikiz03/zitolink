@@ -15,8 +15,7 @@ export default function Experience() {
               Freelance Software Development
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              As a freelance web developer, I typically work on a contract
-              basis, and my responsibilies vary depending on the project. Some
+              My responsibilies vary depending on the project. Some
               of my tasks include gathering requirements, designing, coding,
               testing, deploying and maintaining websites and web applications.{" "}
             </p>
