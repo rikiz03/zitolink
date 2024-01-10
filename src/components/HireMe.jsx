@@ -4,14 +4,14 @@ import Button from "@mui/material/Button";
 
 export default function HireMe() {
   return (
-    <Box sx={{ "& button": { m: 1 } }} className="pt-4">
+    <Box sx={{ "& button": { m: 1 } }} className="flex items-center justify-center mt-5">
       <div>
         <Button
           href="mailto:zitolink19@gmail.com"
           variant="outlined"
           size="small"
         >
-          Hire Me
+          Contact Me
         </Button>
       </div>
     </Box>

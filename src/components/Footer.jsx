@@ -5,7 +5,7 @@ import { Footer } from "flowbite-react";
 export default function DefaultFooter() {
   const year = new Date().getFullYear();
   return (
-    <Footer container className="flex flex-col items-center py-6" id="footer">
+    <Footer container className="flex flex-col items-center py-6">
       <Footer.Copyright
         className="md:mb-4"
         by="Zitolink    |    All Rights Reserved"

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className="container grid grid-cols-1 place-content-center my-20">
+    <div className="container grid grid-cols-1 place-content-center my-20" id="experience">
       <h2 className="font-black mb-10 text-center">EXPERIENCE</h2>
       <div>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
@@ -60,7 +60,7 @@ export default function Experience() {
               October, 2023
             </time>
             <h3 className="text-lg font-semibold text-gray-900">
-              Web Developer at Quantum innovative technologies
+              Fullstack Developer at Quantum innovative technologies
             </h3>
             <p className="text-base font-normal text-gray-500">
               At QIT i work with a team of engineers and designers to deliver high-quality web solutions that align with business objectives and develop cutting edge technologies.
@@ -75,7 +75,7 @@ export default function Experience() {
               October, 2023
             </time>
             <h3 className="text-lg font-semibold text-gray-900">
-              Backend Developer at Canrise Technologies
+              Fullstack Developer at CanRise Technologies
             </h3>
             <p className="text-base font-normal text-gray-500">
               At canRise i collaborate with cross-functional teams to understand business requirements, design, develop and test APIs that connect our frontend applications to backend services, enabling smooth data exchange and integration.

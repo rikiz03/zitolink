@@ -3,10 +3,10 @@ import React from "react";
 export default function Education() {
   return (
     <div className="container grid grid-cols-1 md:my-0 my-20 py-20 md:py-0">
-      <h2 className="font-black text-center pt-20">EDUCATION</h2>
+      <h2 className="font-black text-center">EDUCATION</h2>
 
       <div className="">
-        <ol className="items-center sm:flex">
+        <ol className="">
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
