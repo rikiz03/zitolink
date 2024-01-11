@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className="container grid grid-cols-1 place-content-center my-20" id="experience">
+    <div className="container grid grid-cols-1 place-content-center mb-20 mt-52 md:my-20 md:py-20 pb-60 pt-72" id="experience">
       <h2 className="font-black mb-10 text-center">EXPERIENCE</h2>
       <div>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">

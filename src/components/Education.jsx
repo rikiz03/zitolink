@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Education() {
   return (
-    <div className="container grid grid-cols-1 md:my-0 my-20 py-20 md:py-0">
-      <h2 className="font-black text-center">EDUCATION</h2>
+    <div className="container grid grid-cols-1 md:my-0 mb-72 pb-32 md:py-0">
+      <h2 className="font-black text-center md:pb-0 pb-8">EDUCATION</h2>
 
       <div className="">
         <ol className="">

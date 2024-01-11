@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Abilities() {
   return (
-    <div className="my-20 pb-20 mb:pb-0">
+    <div className="my-20 mb:pb-0">
       <div className="text-center">
         <h2 className="font-black mb-4">ABILITIES</h2>
         <p className="mb-16 text-gray-600">
