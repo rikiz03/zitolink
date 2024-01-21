@@ -29,7 +29,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">CSS</dt>
+            <dt className="group-hover:font-semibold">CSS 3</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -68,7 +68,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">JavaScript ES6</dt>
+            <dt className="group-hover:font-semibold">JavaScript ES14</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -133,7 +133,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">MySQL</dt>
+            <dt className="group-hover:font-semibold">Database Management (MySQL/MongoDB)</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -146,20 +146,20 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">MongoDB</dt>
+            <dt className="group-hover:font-semibold">Web Performance Optimization</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
                 <Rating.Star />
                 <Rating.Star />
                 <Rating.Star />
-                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                <Rating.Star />
               </Rating>
             </dd>
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">Mongoose</dt>
+            <dt className="group-hover:font-semibold">Cross Browser Compatibility</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -198,7 +198,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">GitHub</dt>
+            <dt className="group-hover:font-semibold">Typescript</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -250,6 +250,71 @@ export default function Abilities() {
               </Rating>
             </dd>
           </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">Cloud Hosting</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">Accessibility</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">Java</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">Kotlin</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">React Native</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
         </div>
 
         <div className="leading-loose w-full aspect-square">
@@ -272,6 +337,36 @@ export default function Abilities() {
 
             <dl className="group flex block justify-between">
               <dt className="group-hover:font-semibold">
+                Igbo Language
+              </dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">
+                French
+              </dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">
                 Spanish (basic proficiency)
               </dt>
               <dd className="flex-shrink-0">
@@ -285,20 +380,7 @@ export default function Abilities() {
               </dd>
             </dl>
 
-            <dl className="group flex block justify-between">
-              <dt className="group-hover:font-semibold">
-                Igbo (mother tongue)
-              </dt>
-              <dd className="flex-shrink-0">
-                <Rating>
-                  <Rating.Star />
-                  <Rating.Star />
-                  <Rating.Star />
-                  <Rating.Star />
-                  <Rating.Star />
-                </Rating>
-              </dd>
-            </dl>
+            
           </div>
 
           <div>
@@ -310,8 +392,47 @@ export default function Abilities() {
                   <Rating.Star />
                   <Rating.Star />
                   <Rating.Star />
+                  <Rating.Star />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Framer</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Canva</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Github</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
                 </Rating>
               </dd>
             </dl>
@@ -323,7 +444,7 @@ export default function Abilities() {
                   <Rating.Star />
                   <Rating.Star />
                   <Rating.Star />
-                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
                 </Rating>
               </dd>
@@ -331,7 +452,7 @@ export default function Abilities() {
 
             <dl className="group flex block justify-between">
               <dt className="group-hover:font-semibold">
-                Authentication / Web Application Security / Firebase
+                Authentication / Web Security / Firebase
               </dt>
               <dd className="flex-shrink-0">
                 <Rating>
@@ -444,6 +565,45 @@ export default function Abilities() {
                   <Rating.Star />
                   <Rating.Star />
                   <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Wordpress Website Development</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">Webflow Website Development</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                </Rating>
+              </dd>
+            </dl>
+
+            <dl className="group flex block justify-between">
+              <dt className="group-hover:font-semibold">WIX Website Development</dt>
+              <dd className="flex-shrink-0">
+                <Rating>
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
+                  <Rating.Star />
                 </Rating>
               </dd>
             </dl>

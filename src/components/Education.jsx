@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Education() {
   return (
-    <div className="container grid grid-cols-1 md:my-0 mb-72 pb-32 md:py-0">
+    <div className="w-full box-border h-screen pl-[7%] pr-[3%] pt-[4%] pb-[8%] grid grid-cols-1 md:my-0 mb-80 pb-4 md:pb-0 mb:pt-7">
       <h2 className="font-black text-center md:pb-0 pb-8">EDUCATION</h2>
 
       <div className="">
@@ -32,7 +32,7 @@ export default function Education() {
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April, 2021 - December, 2022
               </time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400 md:pb-5">
                 I successfully completed a full-stack web development course
                 from this programming bootcamp where i learnt how to make
                 beautiful, interactive UI and write clean serverside code to
@@ -65,7 +65,7 @@ export default function Education() {
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2018-2019 session
               </time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400 md:pb-5">
                 I wrote a course on the above as part of my BSC course in
                 Biomedical sciences from which i became passionate about
                 programming and i also learnt data structures and algorithms,
@@ -99,7 +99,7 @@ export default function Education() {
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2007-2013
               </time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400 md:pb-5">
                 Here i learnt about the hardware and software components of
                 computers, and how they work together
               </p>

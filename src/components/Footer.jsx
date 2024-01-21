@@ -13,16 +13,16 @@ export default function DefaultFooter() {
         year={year}
       />
       <Footer.LinkGroup className="mt-6">
-        <Footer.Link className="px-4" href="#about">
+        <Footer.Link className="px-2 md:px-4" href="#about">
           About
         </Footer.Link>
-        <Footer.Link className="px-4" href="mailto:zitolink19@gmail.com">
+        <Footer.Link className="px-2 md:px-4" href="mailto:zitolink19@gmail.com">
           Licensing
         </Footer.Link>
-        <Footer.Link className="px-4" href="mailto:zitolink19@gmail.com">
+        <Footer.Link className="px-2 md:px-4" href="mailto:zitolink19@gmail.com">
           Support
         </Footer.Link>
-        <Footer.Link className="px-4" href="mailto:zitolink19@gmail.com">
+        <Footer.Link className="px-2 md:px-4" href="mailto:zitolink19@gmail.com">
           Contact
         </Footer.Link>
       </Footer.LinkGroup>
