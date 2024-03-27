@@ -94,7 +94,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">jQuery</dt>
+            <dt className="group-hover:font-semibold">JQuery</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -133,7 +133,7 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">Database Management (MySQL/MongoDB)</dt>
+            <dt className="group-hover:font-semibold">NextJS</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -144,6 +144,32 @@ export default function Abilities() {
               </Rating>
             </dd>
           </dl>
+
+          <dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">Database Development & Management</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl><dl className="group flex block justify-between">
+            <dt className="group-hover:font-semibold">CI / CD</dt>
+            <dd className="flex-shrink-0">
+              <Rating>
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star />
+                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+              </Rating>
+            </dd>
+          </dl>
+
+
 
           <dl className="group flex block justify-between">
             <dt className="group-hover:font-semibold">Web Performance Optimization</dt>
@@ -252,14 +278,14 @@ export default function Abilities() {
           </dl>
 
           <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">Cloud Hosting</dt>
+            <dt className="group-hover:font-semibold">Cloud Hosting & Domain Mapping</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
                 <Rating.Star />
                 <Rating.Star />
                 <Rating.Star />
-                <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                <Rating.Star />
               </Rating>
             </dd>
           </dl>
@@ -279,19 +305,6 @@ export default function Abilities() {
 
           <dl className="group flex block justify-between">
             <dt className="group-hover:font-semibold">Java</dt>
-            <dd className="flex-shrink-0">
-              <Rating>
-                <Rating.Star />
-                <Rating.Star />
-                <Rating.Star />
-                <Rating.Star className="text-gray-300 dark:text-gray-500" />
-                <Rating.Star className="text-gray-300 dark:text-gray-500" />
-              </Rating>
-            </dd>
-          </dl>
-
-          <dl className="group flex block justify-between">
-            <dt className="group-hover:font-semibold">Kotlin</dt>
             <dd className="flex-shrink-0">
               <Rating>
                 <Rating.Star />
@@ -590,7 +603,7 @@ export default function Abilities() {
                   <Rating.Star />
                   <Rating.Star />
                   <Rating.Star />
-                  <Rating.Star className="text-gray-300 dark:text-gray-500" />
+                  <Rating.Star />
                 </Rating>
               </dd>
             </dl>

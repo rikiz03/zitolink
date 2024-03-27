@@ -101,7 +101,7 @@ export default function Education() {
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400 md:pb-5">
                 Here i learnt about the hardware and software components of
-                computers, and how they work together
+                computers, and how they work together.
               </p>
             </div>
           </li>
