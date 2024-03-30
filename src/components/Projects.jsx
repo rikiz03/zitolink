@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="flex w-full box-border h-screen pl-[7%] pr-[3%] pt-[4%] pb-[8%]">
         <div className="hover:flex-[1_1_50%] flex-1 overflow-hidden transition-[0.5s] hover:duration-500 hover:ease-in-out shadow-[0_20px_30px_rgba(0,0,0,0.1)] leading-[0] mx-[2%] my-0">
           <img
-            className="w-[200%] h-[calc(100%_-_10vh)] object-cover hover:w-full hover:ease-in-out"
+            className="w-[200%] h-[calc(100%_-_10vh)] object-cover hover:w-full"
             src={hairstylechangerai}
             alt="hairstyle changer AI"
           />
