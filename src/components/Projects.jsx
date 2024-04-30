@@ -14,8 +14,6 @@ export default function Projects() {
             <img src="../../assets/hairstylechangerai.png" alt="..." />
             <img src="../../assets/quantumdoctor.png" alt="..." />
             <img src="../../assets/wikiapi.png" alt="..." />
-            <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-            <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
         </Carousel>
         </div>
 

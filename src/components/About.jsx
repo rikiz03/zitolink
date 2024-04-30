@@ -17,8 +17,8 @@ export default function About() {
 
         <div className="leading-normal md:w-2/3">
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 md:w-2/3">
-            Highly capable and experienced{" "}
-            <box className="font-bold">Full Stack Developer</box> with over 2
+            I am a highly capable and experienced{" "}
+            <box className="font-bold">Full-Stack Developer</box> with over 3
             years of experience developing Software for Quantum Innovative Tech
             Solutions and CanRise Technologies using{" "}
             <box className="font-bold">Front-end</box> and{" "}
@@ -26,10 +26,10 @@ export default function About() {
             Technologies.
             <br />
             Proficient in HTML5, CSS3, TailwindCSS, JavaScript, ReactJS,
-            ASP.NET, C#, Python, Django, Databases, and Agile methodologies.
-            <br />A team player with{" "}
-            <box className="font-bold">Excellent communication</box> and{" "}
-            <box className="font-bold">Problem-solving skills </box>
+            ASP.NET Core, C#, Python, Django, Databases, and Agile methodologies.
+            <br />A Problem Solver with{" "}
+            <box className="font-bold">Excellent Communication</box> and{" "}
+            <box className="font-bold">Great Programming Skills </box>
             looking for a challenging and rewarding Web development position to
             leverage my skills and experience and make a positive impact.
           </p>

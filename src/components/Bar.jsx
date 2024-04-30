@@ -68,7 +68,7 @@ export default function Bar() {
             <div className="absolute top-6 z-50 right-8 md:right-12 flex flex-col mt-3">
               <div className="flex items-center justify-end">
                 <img
-                  className="w-10 h-10 cursor-pointer"
+                  className="w-10 h-10 md:w-9 md:h-9 cursor-pointer"
                   onClick={toggleDropdown}
                   id="avatarButton"
                   type="button"
