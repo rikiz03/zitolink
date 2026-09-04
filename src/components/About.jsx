@@ -28,32 +28,12 @@ export default function About() {
             Proficient in HTML5, CSS3, TailwindCSS, JavaScript, ReactJS,
             ASP.NET Core, C#, Python, Django, Databases, and Agile methodologies.
             <br />A Problem Solver with{" "}
-            <box className="font-bold">Excellent Communication</box> and{" "}
-            <box className="font-bold">Great Programming Skills </box>
-            looking for a challenging and rewarding Web development position to
-            leverage my skills and experience and make a positive impact.
+            <box className="font-bold">Great Communication</box> and{" "}
+            <box className="font-bold">Creativity. </box>
+            Let's work together to bring your project to life!
           </p>
         </div>
       </div>
     </div>
   );
 }
-
-// Hi, i
-// am <box className="font-bold"> Kizito Okeke</box>, a Full Stack
-// Software Engineer. As a self-taught Developer, I take pride in my
-// ability to solve complex problems and maintain the highest quality
-// standards in all my work. I have a wealth of experience working with
-// a wide range of programming languages, frameworks, and tools, which
-// enables me to build intuitive{" "}
-// <box className="font-bold"> user interfaces </box> and develop
-// robust <box className="font-bold"> server-side </box> applications.
-// My technical know-how aside, I excel at effective communication and
-// time management, and i adapt quickly to new conditions and
-// environment. I am also passionate about{" "}
-// <box className="font-bold"> UX/UI </box> and 3D Modeling/Animation
-// which i use in adding some special effects to Software. When I'm not
-// busy coding, I like to relax my mind by watching movies or stay
-// active by hitting the gym. These activities help me to stay sharp,
-// motivated, and in touch with my creative side. Lets work together to
-// bring your project to life!
