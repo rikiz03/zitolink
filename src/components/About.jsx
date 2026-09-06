@@ -18,7 +18,7 @@ export default function About() {
         <div className="leading-normal md:w-2/3">
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 md:w-2/3">
             I am a highly capable and experienced{" "}
-            <box className="font-bold">Full-Stack Developer</box> with over 3
+            <box className="font-bold">Full-Stack Developer</box> with over 5
             years of experience developing Software for Quantum Innovative Tech
             Solutions and CanRise Technologies using{" "}
             <box className="font-bold">Front-end</box> and{" "}
