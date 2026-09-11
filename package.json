@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=20.x"
   },
+  "overrides": {
+    "esbuild": "^0.25.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -18,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-scroll": "^1.9.0",
     "styled-components": "^5.3.9",
-    "vite": "^5.0.10",
+    "vite": "^8.3.0",
     "vite-plugin-svgr": "^4.2.0",
     "web-vitals": "^2.1.4"
   },
